@@ -1,0 +1,94 @@
+{
+  "projectType": "frontend",
+  "projectName": "Finanzas Frontend",
+  "projectDescription": "A React-based personal finance management application for tracking expenses, income, accounts, and financial groups",
+  "theme": "almond",
+  "primaryColor": "#4F46E5",
+  "lightColor": "#818CF8",
+  "darkColor": "#3730A3",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["introduction", "quickstart"]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/expense-tracking",
+              "features/account-management",
+              "features/groups",
+              "features/categories"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "components/overview",
+              "components/ui-components",
+              "components/charts",
+              "components/forms"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/setup",
+              "development/architecture",
+              "development/state-management",
+              "development/api-integration"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Services",
+            "pages": [
+              "api/expenses-service",
+              "api/accounts-service",
+              "api/groups-service"
+            ]
+          },
+          {
+            "group": "Components API",
+            "pages": [
+              "api/button",
+              "api/card",
+              "api/sidebar"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Expense and income tracking with categories",
+    "Account management with balance tracking",
+    "Group-based expense sharing",
+    "Visual charts and analytics",
+    "Date-based filtering and search",
+    "User authentication and profiles",
+    "Responsive sidebar navigation"
+  ],
+  "publicApiSurface": [
+    "getExpenses()",
+    "addExpense(expense)",
+    "updateExpense(id, expense)",
+    "deleteExpense(id)",
+    "getAccounts()",
+    "createAccount(account)",
+    "getGroups()",
+    "ExpensesChart component",
+    "Summary component",
+    "TransaccionForm component",
+    "Button component",
+    "Card component",
+    "Sidebar component"
+  ]
+}
